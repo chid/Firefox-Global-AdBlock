@@ -4,8 +4,8 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-mkdir /usr/share/mozilla/extensions/{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}
-cd /usr/share/mozilla/extensions/"{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}"
+mkdir /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}
+cd /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/"{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}"
 wget --no-check-certificate https://addons.mozilla.org/downloads/latest/1865/adblock_plus-1.1.xpi
 unzip adblock_plus-1.1.xpi
 
